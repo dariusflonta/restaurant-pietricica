@@ -1,0 +1,201 @@
+* {
+    margin:0;
+    padding:0;
+}
+.body {
+    background-color: #EEC373 !important;
+}
+.nav {
+    background-color:#333333;
+    text-align:center;
+}
+.menu-bar img {
+    width:170px;
+}
+.nav-link {
+    color:#FCF3CF;
+    font-weight:500;
+    font-size:1.2rem;
+    padding:.5rem 1rem;
+    margin:0 .5rem;
+    transition:.1s ease-in;
+}
+.nav-link:hover {
+    color:#EEC373;
+}
+.active {
+    color:#EEC373!important;
+}
+.navbar-toggler {
+    outline:0.5px solid #eec373;
+}
+.navbar-toggler .fa {
+    color:#EEC373;
+}
+/*.banner-image {
+    background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(foto/facade1-edit.jpg);
+    background-size:cover;
+    background-position:fixed;
+    width:100%;
+    height:100vh;
+}
+.intro-text {
+    z-index:2;
+    color:#FCF3CF;
+}*/
+
+.carousel {
+    overflow:hidden;
+}
+.carousel-item {
+    height:100vh;
+    min-height:100vh;
+    background:no-repeat scroll center scroll;
+    background-size:cover;
+    margin:0 0 4rem;
+}
+.carousel-item img {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.carousel-item::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:rgba(25,25,25,.85);
+}
+.text-box {
+    width:50%;
+    color:#fff;
+    position:absolute;
+    top:52%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    z-index:1;
+}
+.text-box img {
+    width:40%;
+    height:40%;
+}
+.text-box h3 {
+    font-size:1.4rem;
+    text-transform:capitalize;
+    text-shadow:10px 10px 0 2px #000;
+    z-index:-1;
+    font-weight:500;
+}
+.text-box span {
+    font-size:2.2rem;
+    font-weight: 700;
+}
+.text-box p {
+    font-size:24px;
+    font-weight:400;
+    font-style:italic;
+}
+.text-box button {
+    margin-top:1rem;
+    padding:1.2rem 2.2rem;
+    display:inline-block;
+    outline:1px solid #EEC373;
+    color:#EEC373;
+    font-size:1.5rem;
+    font-weight:500;
+    position:relative;
+    overflow:hidden;
+    transition:.4s ease-in-out;
+}
+.text-box button:hover {
+    background-color:#EEC373;
+}
+section {
+    background-color:#fff;
+    text-align:center;
+}
+section h2 {
+    margin-bottom:2rem;
+    margin-top:2rem;
+}
+.about-col {
+    margin-bottom:1rem;
+}
+.about-col img {
+    width:90%;
+    height:80%;
+    box-shadow:1px 2px 5px #333333;
+}
+footer {
+    background-color:#333333;
+    color:#FCF3CF;
+}
+footer p {
+    margin:2rem;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.sub-header {
+    height:50vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url(foto/facade.jpeg);
+    background-size:cover;
+    background-position:0;
+    box-shadow: 0 4px 4px 2px;
+}
+.sub-header2 {
+    height:50vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url(foto/pizzerie-vedere.jpg);
+    background-size:cover;
+    background-position:0;
+    box-shadow: 0 4px 4px 2px;
+}
+.sub-header3 {
+    height:50vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url(foto/pizza-tinaud.jpg);
+    background-size:cover;
+    background-position:0;
+    box-shadow: 0 4px 4px 2px;
+}
+.sub-header-text {
+    width:50%;
+    color:#fff;
+    position:absolute;
+    top:32%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    z-index:1;
+}
+.sub-header-text h1 {
+    font-weight:700 !important;
+    text-shadow:5px 5px 5px #000;
+}
+.sub-header-text h6 {
+    font-weight:300 !important;
+    text-shadow:5px 5px 5px #000;
+}
+.section-header {
+    text-shadow:0 2px 2px;
+    text-transform:uppercase;
+    margin:1rem;
+}
+summary {
+    padding:1rem;
+}
+article p {
+    transition:.7s ease-in-out;
+}
+.menu-block{
+    display:inline-block;
+}
+.bordered {
+    border:2px solid #EEC373 !important;
+    border-radius:1px;
+}
