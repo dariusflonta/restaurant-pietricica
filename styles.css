@@ -196,6 +196,31 @@ article p {
     display:inline-block;
 }
 .bordered {
-    border:2px solid #EEC373 !important;
+    border:1px solid #EEC373;
     border-radius:1px;
+}
+.bottom-bordered {
+    border-bottom: 1px solid #eec373;
+    border-top:1px solid #eec373;
+}
+
+@media (max-width:600px) {
+    .menu-block {
+        font-size:1.2rem;
+    }
+    details h5 {
+        font-size:1rem;
+    }
+    details h6 {
+        font-size:1rem;
+    }
+    details p {
+        font-size:0.9rem;
+    }
+    .section-header {
+        font-size:1.3rem;
+    }
+    .section-logo {
+        margin:0;
+    }
 }
