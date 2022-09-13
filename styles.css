@@ -15,8 +15,8 @@
 .nav-link {
     color:#FCF3CF;
     font-weight:500;
-    font-size:1.2rem;
-    padding:.5rem 1rem;
+    font-size:1rem;
+    padding:.5rem .5rem;
     margin:0 .5rem;
     transition:.1s ease-in;
 }
@@ -201,7 +201,7 @@ article p {
 }
 .bottom-bordered {
     border-bottom: 1px solid #eec373;
-    border-top:1px solid #eec373;
+    
 }
 
 @media (max-width:600px) {
@@ -209,16 +209,16 @@ article p {
         font-size:1.2rem;
     }
     details h5 {
-        font-size:1rem;
+        font-size:0.8rem;
     }
     details h6 {
-        font-size:1rem;
+        font-size:0.7rem;
     }
     details p {
-        font-size:0.9rem;
+        font-size:0.6rem;
     }
     .section-header {
-        font-size:1.3rem;
+        font-size:1.2rem;
     }
     .section-logo {
         margin:0;
