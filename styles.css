@@ -15,7 +15,7 @@
 .nav-link {
     color:#FCF3CF;
     font-weight:500;
-    font-size:1rem;
+    font-size:1.2rem;
     padding:.5rem .5rem;
     margin:0 .5rem;
     transition:.1s ease-in;
@@ -132,6 +132,7 @@ section h2 {
 footer {
     background-color:#333333;
     color:#FCF3CF;
+    margin-top:2rem;
 }
 footer p {
     margin:2rem;
@@ -194,6 +195,8 @@ article p {
 }
 .menu-block{
     display:inline-block;
+    margin-bottom:1rem;
+    padding:1rem;
 }
 .bordered {
     border:1px solid #EEC373;
@@ -209,16 +212,16 @@ article p {
         font-size:1.2rem;
     }
     details h5 {
-        font-size:0.8rem;
+        font-size:1.05rem;
     }
     details h6 {
-        font-size:0.7rem;
+        font-size:1rem;
     }
     details p {
-        font-size:0.6rem;
+        font-size:0.9rem;
     }
     .section-header {
-        font-size:1.2rem;
+        font-size:1.3rem;
     }
     .section-logo {
         margin:0;
