@@ -1,11 +1,14 @@
+window.addEventListener('scroll', revealOne);
 
+    function revealOne() {
+        var reveals = document.querySelectorAll('.revealElement');
+        for(var i = 0; i < reveals.length; i++){
+            var windowHeight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 40;
 
-var nav = document.querySelector('nav');
-window.addEventListener('scroll', function(){
-    if(this.window.pageYOffset > 10){
-        nav.classList.add('nav');
-    }
-    else {
-        nav.classList.remove('nav');
-    }
-})
+            if(revealtop < windowHeight - revealpoint) {
+                reveals[i].classList.add('activeReveal');
+                }
+            }
+        };

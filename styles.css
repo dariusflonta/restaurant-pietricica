@@ -291,4 +291,31 @@ article p {
     .section-logo {
         margin:0;
     }
+    .panino-img2 {
+        margin-right:-75px;
+        margin-top:-50px;
+    }
+    .rest-img2 {
+        margin-left:-100px;
+        margin-top:-40px;
+        margin-bottom:30px;
+        margin-right:20px;
+    }
+    .rest-img4 {
+        margin-right:-1000px;
+        margin-top:-40px;
+    }
+}
+
+.revealElement {
+    position:relative;
+    transform:translateY(250px);
+    opacity:0;
+    transition:all 0.8s ease-out;
+}
+
+
+.revealElement.activeReveal {
+    transform:translateY(0px);
+    opacity:1;
 }
