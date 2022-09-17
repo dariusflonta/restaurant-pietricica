@@ -159,7 +159,7 @@ footer p {
 .sub-header3 {
     height:50vh;
     width:100%;
-    background-image:linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url(foto/pizza-tinaud.jpg);
+    background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)),url('foto/pizza-tinaud.jpg');
     background-size:cover;
     background-position:0;
     box-shadow: 0 4px 4px 2px;
@@ -205,6 +205,30 @@ article p {
 .bottom-bordered {
     border-bottom: 1px solid #eec373;
     
+}
+.panino-img {
+    box-shadow:2px 2px 8px 2px #333333;
+}
+.panino-img1 {
+    display:flex;
+    align-items:start;
+    justify-content: start;
+}
+.panino-img2 {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position:relative;
+    margin-left:-50px;
+    margin-top:-100px;
+}
+.panino-img3 {
+    display:flex;
+    align-items:end;
+    justify-content: end;
+    position:relative;
+    margin-left:-50px;
+    margin-top:-100px;
 }
 
 @media (max-width:600px) {
