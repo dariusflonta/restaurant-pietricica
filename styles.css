@@ -302,8 +302,10 @@ article p {
         margin-right:20px;
     }
     .rest-img4 {
-        margin-right:-100px;
-        margin-top:-40px;
+        margin-right:-60px;
+        margin-top:-20px;
+        width:220px;
+        height:110px;
     }
 }
 
