@@ -113,6 +113,9 @@
 .text-box button:hover {
     background-color:#EEC373;
 }
+p {
+    color:gray;
+}
 section {
     background-color:#fff;
     text-align:center;
@@ -273,6 +276,28 @@ article p {
     margin-top:-80px;
 }
 @media (max-width:600px) {
+    .navbar-brand img {
+        width:6em!important;
+    }
+    .navbar-toggler {
+        font-size:1em !important;
+    }
+    .nav-link {
+        font-size:1em;
+    }
+    .text-box h3 span {
+        font-size:1.3em;
+    }
+    .text-box button {
+        font-size:1em;
+        padding:1.2em;
+    }
+    h2 {
+        font-size:1.5rem !important;
+    }
+    p {
+        font-size:.9rem !important;
+    }
     .menu-block {
         font-size:1.2rem;
     }
@@ -304,8 +329,14 @@ article p {
     .rest-img4 {
         margin-right:-60px;
         margin-top:-20px;
-        width:310px;
-        height:150px;
+        width:350px;
+        height:170px;
+    }
+    .contact-btn {
+        font-size:1rem;
+        width:12.5rem;
+        padding:1rem;
+        margin-top:1rem;
     }
 }
 
