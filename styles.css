@@ -227,6 +227,7 @@ article p {
     margin-top:-110px;
 }
 .contact-btn {
+    width:18rem;
     margin-top:1rem;
     padding:1.2rem 2.2rem;
     display:inline-block;
@@ -337,6 +338,7 @@ article p {
         width:12.5rem;
         padding:1rem;
         margin-top:1rem;
+        display:block;
     }
 }
 
@@ -346,8 +348,6 @@ article p {
     opacity:0;
     transition:all 0.8s ease-out;
 }
-
-
 .revealElement.activeReveal {
     transform:translateY(0px);
     opacity:1;
