@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meniu Restaurant</title>
+    <title>Cazare Pietricica</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,46 +47,32 @@
         </div>
       </div>
 
+      <div class="cazare-popup">
+        <div id="closeBtn">&times;</div>
+        <div class="large-image">
+          <img src="">
+        </div>
+      </div>
+
       <div class="container-lg justify-content-center">
         <div class="row justify-content-center w-30 h-30">
           <img src="logo/logo-pietricica-color2.png" class="w-25 h-25 m-3 section-logo" alt="Logo Pietricica">
         </div>
         <h1 class="text-center section-header m-3 p-3">Motel</h1>
-        <div class="row justify-content-center align-items-center my-4 revealElement">
-          <div class="col-lg-6 col-md-12 about-col">
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad, voluptatum nobis molestias debitis nulla non ab quae ea nam est mollitia maiores ipsum obcaecati error ratione corporis accusamus facilis quaerat consectetur, beatae voluptatibus quod rem id! Accusantium quos voluptates nulla laboriosam quam temporibus suscipit!</p>          </div>
-          <div class="col-lg-6 col-md-12 about-col">
-              <img class="img-fluid img-thumbnail h-75 w-100" src="foto/hol1.jpeg">
-          </div>   
-      </div>
-      <div class="row justify-content-center align-items-center my-4 revealElement">
-          <div class="col-lg-6 col-md-12 about-col">
-              <img class="img-fluid img-thumbnail h-75 w-100" src="foto/cazare-1.jpeg">
-          </div>
-          <div class="col-lg-6 col-md-12 about-col">
-            <img class="img-fluid img-thumbnail h-75 w-100" src="foto/cazare-2.png">
-          </div>  
-      </div>
-      <hr class="revealElement">
-      <div class="row justify-content-center align-items-center my-4 mx-4 revealElement"> 
-          <div class="col-lg-6 col-md-12 about-col">
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad, voluptatum nobis molestias debitis nulla non ab quae ea nam est mollitia maiores ipsum obcaecati error ratione corporis accusamus facilis quaerat consectetur, beatae voluptatibus quod rem id! Accusantium quos voluptates nulla laboriosam quam temporibus suscipit!</p>
-            
-          </div>
-          <div class="col-lg-6 col-md-12 about-col">
-            <img class="img-fluid img-thumbnail h-75 w-100" src="foto/hol2.jpeg">
-          </div>  
-      </div>
-      <div class="row justify-content-center align-items-center my-4 mx-4 revealElement"> 
-        <div class="col-lg-6 col-md-12 about-col">
-          <img class="img-fluid img-thumbnail h-75 w-100" src="foto/cazare-3.png">
+        <div class="info-cazare text-center">
+          <h2 style="margin:35px auto;">Odihneste-te la noi</h2>
+          <p style="margin:20px auto;">Restaurantul Pietricica va pune la dispozitie spatii de cazare, ingrijite, pentru o persoana, doua si chiar trei persoane. Odihna dumneavoastra este importanta iar la noi nimeni nu va va putea perturba. De asemenea, puteti profita si de peisajul mirific din imprejurimi. Pretul unei nopti de cazare se poate afla la telefonul mobil atasat in butonul de mai jos, iar acesta variaza in functie de consumatie.</p>
         </div>
-        <div class="col-lg-6 col-md-12 about-col">
-          <img class="img-fluid img-thumbnail h-75 w-100" src="foto/cazare-4.png">
-        </div>  
-      </div>
+        <div class="cazare-row">
+          <div class="cazare-col"><img src="foto/hol1.jpeg" class="cazare-img" alt=""></div>
+          <div class="cazare-col"><img src="foto/cazare-1.jpeg" alt="" class="cazare-img"></div>
+          <div class="cazare-col"><img src="foto/cazare-2.png" alt="" class="cazare-img"></div>
+        </div>
+        <div class="cazare-row">
+          <div class="cazare-col"><img src="foto/hol2.jpeg" class="cazare-img" alt=""></div>
+          <div class="cazare-col"><img src="foto/cazare-3.png" class="cazare-img" alt=""></div>
+          <div class="cazare-col"><img src="foto/terasa.jpeg" class="cazare-img" alt=""></div>
+        </div>
       <hr class="revealElement">
       <div class="row justify-content-center revealElement">
         <button style="margin:80px" class="contact-btn"
@@ -96,7 +81,7 @@
     </div>
 
     <footer>
-      <div class="row justify-content-center align-items-center p-3">
+      <div class="footer-row text-center py-2">
           <div class="footer-link">
               <a class="m-2" href="termeni.html">Termenii și condițiile</a>
           </div>
@@ -120,5 +105,7 @@
           <p><span>Pietrica, 2022.<sup>&copy;</sup></span></p>
       </div>
   </footer>
+
+  <script src="app.js"></script>
   </body>
   </html>

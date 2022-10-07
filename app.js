@@ -13,12 +13,30 @@ window.addEventListener('scroll', revealOne);
             }
         };
 
-/*document.querySelectorAll('.open-img').forEach(image =>{
+document.querySelectorAll('.cazare-img').forEach(image =>{
     image.onclick = () => {
-        document.querySelector('.pop-up').style.display = 'block';
-        document.querySelector('pop-up img').src = image.getAttribute('src');
+        var lgImage = document.querySelector('.large-image img');
+        var smImage = document.querySelectorAll('.cazare-img');
+        smImage.src = image.getAttribute('src');
+        document.querySelector('.cazare-popup').style.display = 'block';
+        lgImage.src = smImage.src;
     }
 });
 
-document.querySelector('.close-img').onclick=() => {document.querySelector('.pop-up').style.display = 'none';
-}*/
+document.getElementById('closeBtn').onclick=() => {document.querySelector('.cazare-popup').style.display = 'none';
+}
+
+/*var nav = document.querySelector('nav');
+var navmenu = document.querySelector('.navbar-nav');
+window.addEventListener('scroll', function(){
+    if(this.window.pageYOffset > 100){
+        nav.classList.add('nav');
+    }
+    else {
+        nav.classList.remove('nav');
+        navmenu.classList.add('nav');
+    }
+});*/
+
+
+
