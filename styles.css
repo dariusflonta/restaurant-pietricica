@@ -18,6 +18,7 @@
     align-items:center;
     justify-content:center;
     flex-direction: column;
+    position:fixed;
 }
 #loader img {
     width:8%;
@@ -25,8 +26,8 @@
 }
 @media (max-width:800px) {
     #loader img {
-        width:20%;
-        height:18%;
+        width:15%;
+        height:13%;
     }
 }
 .nav {

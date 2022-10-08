@@ -10,9 +10,9 @@ window.addEventListener('scroll', revealOne);
     function revealOne() {
         var reveals = document.querySelectorAll('.revealElement');
         for(var i = 0; i < reveals.length; i++){
-            var windowHeight = window.innerHeight;
+            var windowHeight = window.innerHeight*1.15;
             var revealtop = reveals[i].getBoundingClientRect().top;
-            var revealpoint = 20;
+            var revealpoint = 0.2;
 
             if(revealtop < windowHeight - revealpoint) {
                 reveals[i].classList.add('activeReveal');
