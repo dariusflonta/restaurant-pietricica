@@ -1,3 +1,10 @@
+var loader = document.getElementById('loader');
+window.addEventListener('load', () => {
+    loader.style.display = "none";
+    loader.style.transition = ".8s";
+})
+
+
 window.addEventListener('scroll', revealOne);
 
     function revealOne() {
@@ -37,6 +44,8 @@ window.addEventListener('scroll', function(){
         navmenu.classList.add('nav');
     }
 });*/
+
+
 
 
 
